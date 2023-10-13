@@ -7,6 +7,3 @@ vim.opt.title = true
 vim.opt.titlestring = "%{expand(\"%:~:.:h\")}/%t"
 vim.opt.signcolumn = "auto"
 vim.opt.termguicolors = true
-
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
