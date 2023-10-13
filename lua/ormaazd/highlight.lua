@@ -4,6 +4,7 @@ vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
 vim.api.nvim_set_hl(0, "CursorLine", { bg = OrmaazdColors.purples.dark })
 
+vim.api.nvim_set_hl(0, "@lsp.type.variable", { fg = OrmaazdColors.white })
 
 function LualineHighlights()
 	vim.api.nvim_set_hl(0, "lualine_b_diff_modified_insert", { fg = OrmaazdColors.blues.dark, bg = OrmaazdColors.oranges.neutral})
