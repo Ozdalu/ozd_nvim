@@ -1,4 +1,4 @@
----- I put it back to 0 so I can use vim.cmd.Ex
+---- FOR NvimTree :
 -- disable netrw at the very start of your init.lua
-vim.g.loaded_netrw = 0
-vim.g.loaded_netrwPlugin = 0
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
