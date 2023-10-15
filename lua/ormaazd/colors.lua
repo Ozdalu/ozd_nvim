@@ -10,7 +10,7 @@ OrmaazdColors = {
 		dark	= '#2b0409',
 	},
 	blues = {
-		light	= '#7bf6d5',
+		light	= '#40ffff',
 		neutral = '#3342f4',
 		dark	= '#072384',
 	},
