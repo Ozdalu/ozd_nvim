@@ -5,11 +5,6 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	------ Color themes ------
-	-- Dracula
-	use 'Mofiqul/dracula.nvim'
-
-
 	------ Actual plugins ------
 	-- Mason
 	use {
@@ -29,12 +24,16 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-	-- Treesitter
+	-- Treesitter (+ playgroud)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+	use('nvim-treesitter/playground')
 
 	-- Nvim Tree
 	use('nvim-tree/nvim-tree.lua')
 	use('nvim-tree/nvim-web-devicons')
+
+	-- Floating Terminal
+	use('numToStr/FTerm.nvim')
 
 	-- LSP Zero
 	use {
