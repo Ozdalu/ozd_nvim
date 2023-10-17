@@ -9,14 +9,25 @@ vim.api.nvim_set_hl(0, "Statement", { fg = OrmaazdColors.oranges.light, bold = t
 vim.api.nvim_set_hl(0, "Special", { fg = OrmaazdColors.oranges.neutral })
 vim.api.nvim_set_hl(0, "Type", { fg = OrmaazdColors.green, bold = true})
 vim.api.nvim_set_hl(0, "Number", { fg = OrmaazdColors.purples.light })
+vim.api.nvim_set_hl(0, "Comment", { fg = OrmaazdColors.purples.neutral})
+
+vim.api.nvim_set_hl(0, "@variable.builtin", { fg = OrmaazdColors.purples.light, italic = true })
+vim.api.nvim_set_hl(0, "@property", { fg = OrmaazdColors.white })
+vim.api.nvim_set_hl(0, "@variable", { fg = OrmaazdColors.white })
+vim.api.nvim_set_hl(0, "@parameter", { link = "@variable" })
 
 -- Go TreeSitter highlights
-vim.api.nvim_set_hl(0, "@include.go", { fg = OrmaazdColors.purples.light })
-vim.api.nvim_set_hl(0, "@field.go", { fg = OrmaazdColors.white })
-vim.api.nvim_set_hl(0, "@type.go", { fg = OrmaazdColors.white })
-vim.api.nvim_set_hl(0, "@variable.go", { fg = OrmaazdColors.white })
-vim.api.nvim_set_hl(0, "@parameter.go", { link = "@variable.go" })
-vim.api.nvim_set_hl(0, "@type.builtin.go", { fg = OrmaazdColors.green, italic = true})
+vim.api.nvim_set_hl(0, "@include", { fg = OrmaazdColors.purples.light })
+vim.api.nvim_set_hl(0, "@field", { fg = OrmaazdColors.white })
+vim.api.nvim_set_hl(0, "@type", { fg = OrmaazdColors.white })
+--vim.api.nvim_set_hl(0, "@variable.go", { fg = OrmaazdColors.white })
+--vim.api.nvim_set_hl(0, "@parameter.go", { link = "@variable.go" })
+vim.api.nvim_set_hl(0, "@type.builtin", { fg = OrmaazdColors.green, italic = true})
+
+-- PHP TreeSitter highlights
+--vim.api.nvim_set_hl(0, "@variable.builtin.php", { fg = OrmaazdColors.purples.light, italic = true })
+--vim.api.nvim_set_hl(0, "@property.php", { fg = OrmaazdColors.white })
+--vim.api.nvim_set_hl(0, "@variable.php", { fg = OrmaazdColors.white })
 
 function LualineHighlights()
 	vim.api.nvim_set_hl(0, "lualine_b_diff_modified_insert", { fg = OrmaazdColors.blues.dark, bg = OrmaazdColors.oranges.neutral})
