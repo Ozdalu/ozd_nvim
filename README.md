@@ -12,9 +12,9 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 [ripgrep](https://github.com/BurntSushi/ripgrep)
 
-[lazygit](https://github.com/jesseduffield/lazygit)
-
 A [nerdfont](https://www.nerdfonts.com/font-downloads), I personnaly use [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip).
+
+<br>
 
 ## Installed plug-ins
 
@@ -34,8 +34,22 @@ Treesitter
 
 Nvim Tree
 
-CCC (to highlight #colors)
+CCC (to highlight colors, such as #c8102e)
 
 LSP Zero
 
 LUA Line
+
+<br>
+
+## Custom remaps
+
+Function | Remap | Comment
+---------|:------|:-------|
+Leader key | `<Spacebar>` |   |
+Open file from window to NvimTree | `<Space>fo` | (**f**ile **o**pen)
+Show #C0L0R with its background as color (toggle) | `<Space>hc` | (**h**ighlight **c**olors)
+Toggle NvimTree | `<Ctrl-b>` | (VSCode/VSCodium shortcut)
+PageUp | `<Ctrl-k>` | (uses **k** because it's the default keybind to navigate up)
+PageDown | `<Ctrl-j>` | (uses **j** because it's the default keybind to navigate down)
+Open/Close the floating terminal | `<Alt-ù>` |  |
