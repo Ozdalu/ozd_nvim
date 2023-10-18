@@ -5,6 +5,11 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+	------ Color themes ------
+	-- Dracula
+	use 'Mofiqul/dracula.nvim'
+
+
 	------ Actual plugins ------
 	-- Mason
 	use {
