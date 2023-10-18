@@ -14,7 +14,9 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 ## Installed plug-ins
 
-(list of plugins in lue/ormaazd/packer)
+(list of plugins in lua/ormaazd/packer)
+
+Packer
 
 Dracula Theme (not used)
 
@@ -27,6 +29,8 @@ Telescope
 Treesitter
 
 Nvim Tree
+
+CCC (to highlight #colors)
 
 LSP Zero
 

@@ -40,6 +40,9 @@ return require('packer').startup(function(use)
 	-- Floating Terminal
 	use('numToStr/FTerm.nvim')
 
+	-- CCC (Color Picker)
+	use('uga-rosa/ccc.nvim')
+
 	-- LSP Zero
 	use {
 		'VonHeikemen/lsp-zero.nvim',
