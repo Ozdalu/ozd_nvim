@@ -8,3 +8,10 @@ vim.keymap.set("n", "<C-k>", "<PageUp>")
 
 vim.keymap.set("n", "<A-ù>", vim.cmd.FTermOpen)
 vim.keymap.set("t", "<A-ù>", vim.cmd.FTermClose)
+
+vim.keymap.set("n", "<leader>ha", vim.cmd.HarpoonMark)
+vim.keymap.set("n", "<leader>hh", vim.cmd.HarpoonToggle)
+vim.keymap.set("n", "<leader>hy", vim.cmd.HarpoonNavigate1)
+vim.keymap.set("n", "<leader>hu", vim.cmd.HarpoonNavigate2)
+vim.keymap.set("n", "<leader>hi", vim.cmd.HarpoonNavigate3)
+vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
