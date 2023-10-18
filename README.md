@@ -34,8 +34,14 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 Function | Remap | Comment
 ---------|:------|:-------|
 Leader key | `<Spacebar>` |   |
-Open file from window to NvimTree | `<Space>fo` | (**f**ile **o**pen)
+Open file from window to NvimTree | `<Space>fo` | (**fo**cus)
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | (**h**ighlight **c**olors)
+Add to Harpoon | `<Space>ha` | (**h**arpoon **a**dd)
+List Harpooned files | `<Space>hh` | (**h**arpoon **h**arpoon)
+Show Harpooned 1 | `<Space>hy` | (**h**arpoon **y**uio)
+Show Harpooned 2 | `<Space>hu` | (**h**arpoon y**u**io)
+Show Harpooned 3 | `<Space>hi` | (**h**arpoon yu**i**o)
+Show Harpooned 4 | `<Space>ho` | (**h**arpoon yui**o**)
 Toggle NvimTree | `<Ctrl-b>` | (VSCode/VSCodium shortcut)
 PageUp | `<Ctrl-k>` | (uses **k** because it's the default keybind to navigate up)
 PageDown | `<Ctrl-j>` | (uses **j** because it's the default keybind to navigate down)
