@@ -35,6 +35,8 @@ Function | Remap | Comment
 ---------|:------|:-------|
 Leader key | `<Spacebar>` |   |
 Open file from window to NvimTree | `<Space>fo` | (**fo**cus)
+Toggle NvimTree | `<Ctrl-b>` | (VSCode/VSCodium shortcut)
+Open/Close the floating terminal | `<Alt-ù>` |  |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | (**h**ighlight **c**olors)
 Add to Harpoon | `<Space>ha` | (**h**arpoon **a**dd)
 List Harpooned files | `<Space>hh` | (**h**arpoon **h**arpoon)
@@ -42,7 +44,8 @@ Show Harpooned 1 | `<Space>hy` | (**h**arpoon **y**uio)
 Show Harpooned 2 | `<Space>hu` | (**h**arpoon y**u**io)
 Show Harpooned 3 | `<Space>hi` | (**h**arpoon yu**i**o)
 Show Harpooned 4 | `<Space>ho` | (**h**arpoon yui**o**)
-Toggle NvimTree | `<Ctrl-b>` | (VSCode/VSCodium shortcut)
 PageUp | `<Ctrl-k>` | (uses **k** because it's the default keybind to navigate up)
 PageDown | `<Ctrl-j>` | (uses **j** because it's the default keybind to navigate down)
-Open/Close the floating terminal | `<Alt-ù>` |  |
+Move the selected text one line up | `<Alt-k>` |  Visual mode (uses **k** because it's the default keybind to navigate up)
+Move the selected text one line down | `<Alt-j>` |  Visual mode (uses **j** because it's the default keybind to navigate up)
+Replace selected text without losing buffer | `<Space>p` |  Visual mode (**p** because it's the default keybind to **p**aste)
