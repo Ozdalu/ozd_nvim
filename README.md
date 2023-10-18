@@ -6,39 +6,26 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 ## Prerequisite
 
-[neovim](https://github.com/neovim/neovim)
-
-[packer](https://github.com/wbthomason/packer.nvim)
-
-[ripgrep](https://github.com/BurntSushi/ripgrep)
-
-A [nerdfont](https://www.nerdfonts.com/font-downloads), I personnaly use [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip).
+- [neovim](https://github.com/neovim/neovim)
+- [packer](https://github.com/wbthomason/packer.nvim)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- A [nerdfont](https://www.nerdfonts.com/font-downloads), I personnaly use [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip).
 
 <br>
 
 ## Installed plug-ins
 
-(list of plugins in lua/ormaazd/packer)
-
-Packer
-
-Dracula Theme (not used)
-
-Mason
-
-Mason Lsp Config
-
-Telescope
-
-Treesitter
-
-Nvim Tree
-
-CCC (to highlight colors, such as #c8102e)
-
-LSP Zero
-
-LUA Line
+(list of plugins in lua/ormaazd/packer) :
+- Packer
+- Dracula Theme (not used)
+- Mason
+- Mason Lsp Config
+- Telescope
+- Treesitter
+- Nvim Tree
+- CCC (to highlight colors, such as #c8102e)
+- LSP Zero
+- LUA Line
 
 <br>
 
