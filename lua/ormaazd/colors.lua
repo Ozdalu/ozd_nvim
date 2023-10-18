@@ -23,5 +23,6 @@ OrmaazdColors = {
 		light	= '#b47eff',
 		neutral	= '#4f1d81',
 		dark	= '#290040',
+		darkest	= '#100119',
 	},
 }
