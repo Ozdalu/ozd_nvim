@@ -14,6 +14,8 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 [lazygit](https://github.com/jesseduffield/lazygit)
 
+A [nerdfont](https://www.nerdfonts.com/font-downloads), I personnaly use [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip).
+
 ## Installed plug-ins
 
 (list of plugins in lua/ormaazd/packer)
