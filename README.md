@@ -12,6 +12,8 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 [ripgrep](https://github.com/BurntSushi/ripgrep)
 
+[lazygit](https://github.com/jesseduffield/lazygit)
+
 ## Installed plug-ins
 
 (list of plugins in lua/ormaazd/packer)
