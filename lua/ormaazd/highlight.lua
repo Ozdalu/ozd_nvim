@@ -12,6 +12,7 @@ vim.api.nvim_set_hl(0, "Number", { fg = OrmaazdColors.purples.light })
 vim.api.nvim_set_hl(0, "Comment", { fg = OrmaazdColors.purples.neutral})
 
 vim.api.nvim_set_hl(0, "@variable.builtin", { fg = OrmaazdColors.purples.light, italic = true })
+vim.api.nvim_set_hl(0, "@type.builtin", { fg = OrmaazdColors.green, bold = true, italic = true })
 vim.api.nvim_set_hl(0, "@property", { fg = OrmaazdColors.white })
 vim.api.nvim_set_hl(0, "@variable", { fg = OrmaazdColors.white })
 vim.api.nvim_set_hl(0, "@parameter", { link = "@variable" })
