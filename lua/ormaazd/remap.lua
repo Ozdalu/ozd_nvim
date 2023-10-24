@@ -15,7 +15,7 @@ vim.keymap.set("n", "<leader>hu", vim.cmd.HarpoonNavigate2)
 vim.keymap.set("n", "<leader>hi", vim.cmd.HarpoonNavigate3)
 vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
 
-vim.keymap.set("v", "<A-k>", ":m '>-2<CR>gv=gv")
+vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
 
 vim.keymap.set("x", "<leader>p", "\"_dP")
