@@ -48,7 +48,7 @@ Show Harpooned 3 | `<Space>hi` | Normal | **h**arpoon yu**i**o
 Show Harpooned 4 | `<Space>ho` | Normal | **h**arpoon yui**o**
 PageUp | `<Ctrl-k>` | Normal | **k** is the default keybind to navigate up
 PageDown | `<Ctrl-j>` | Normal | **j** is the default keybind to navigate down
-Move the selected text one line up | `<Alt-k>` | Visual | **k** is the default keybind to navigate up
-Move the selected text one line down | `<Alt-j>` | Visual | **j** is the default keybind to navigate up
+Move the selected text one line up (and vertically center it) | `<Alt-k>` | Visual | **k** is the default keybind to navigate up
+Move the selected text one line down (and vertically center it) | `<Alt-j>` | Visual | **j** is the default keybind to navigate up
 Replace selected text without losing buffer | `<Space>p` | Visual | **p** is the default keybind to **p**aste
 Copy (selection if visual mode) to system clipboard | `<Space>y` | Normal<br>Visual | **y** is the default keybind to **y**ank
