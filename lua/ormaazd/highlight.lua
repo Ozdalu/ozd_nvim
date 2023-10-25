@@ -33,3 +33,8 @@ function LualineHighlights()
 	vim.api.nvim_set_hl(0, "lualine_b_diagnostic_info_insert", { fg = OrmaazdColors.blues.dark, bg = OrmaazdColors.oranges.neutral })
 	vim.api.nvim_set_hl(0, "lualine_b_diagnostic_hint_insert", { fg = OrmaazdColors.purples.dark, bg = OrmaazdColors.oranges.neutral })
 end
+
+-- GitSigns highlights
+vim.api.nvim_set_hl(0, "DiffAdd", { fg = OrmaazdColors.green, bg = "none" })
+vim.api.nvim_set_hl(0, "DiffDelete", { fg = OrmaazdColors.reds.light, bg = "none" })
+vim.api.nvim_set_hl(0, "DiffChange", { fg = OrmaazdColors.purples.neutral, bg = "none" })
