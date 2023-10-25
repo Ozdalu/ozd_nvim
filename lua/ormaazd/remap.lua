@@ -7,8 +7,7 @@ vim.keymap.set("n", "<C-b>", vim.cmd.NvimTreeToggle)
 vim.keymap.set("n", "<C-k>", "<PageUp>zz")
 vim.keymap.set("n", "<C-j>", "<PageDown>zz")
 
-vim.keymap.set("n", "<A-ù>", vim.cmd.FTermToggle)
-vim.keymap.set("t", "<A-ù>", vim.cmd.FTermClose)
+vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle)
 
 vim.keymap.set("n", "<leader>ha", vim.cmd.HarpoonMark)
 vim.keymap.set("n", "<leader>hh", vim.cmd.HarpoonToggle)
