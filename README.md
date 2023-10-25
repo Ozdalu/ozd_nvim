@@ -34,6 +34,8 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 Function | Remap | Mode | Comment
 ---------|:------|:-----|:-------|
 Leader key | `<Spacebar>` |   |   |
+Fusy find file | `<Space>ff`| Normal | **f**ind **f**ile
+Fusy Grep | `<Space>ps`| Normal | gre**p** **s**search
 Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
 Open/Close the floating terminal | `<Alt-ù>` | Normal |  |

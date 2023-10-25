@@ -31,6 +31,9 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
 
+	--GitSigns
+	use('lewis6991/gitsigns.nvim')
+
 	-- Nvim Tree
 	use('nvim-tree/nvim-tree.lua')
 	use('nvim-tree/nvim-web-devicons')
