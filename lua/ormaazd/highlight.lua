@@ -14,13 +14,15 @@ vim.api.nvim_set_hl(0, "Comment", { fg = OrmaazdColors.purples.neutral})
 vim.api.nvim_set_hl(0, "@variable.builtin", { fg = OrmaazdColors.purples.light, italic = true })
 vim.api.nvim_set_hl(0, "@type.builtin", { fg = OrmaazdColors.green, bold = true, italic = true })
 vim.api.nvim_set_hl(0, "@property", { fg = OrmaazdColors.white })
+vim.api.nvim_set_hl(0, "@lsp.type.property", { link = "@property" })
 vim.api.nvim_set_hl(0, "@variable", { fg = OrmaazdColors.white })
+vim.api.nvim_set_hl(0, "@lsp.type.variable", { link = "@variable" })
 vim.api.nvim_set_hl(0, "@parameter", { link = "@variable" })
+vim.api.nvim_set_hl(0, "@lsp.type.parameter", { link = "@parameter" })
 
 -- Go TreeSitter highlights
 vim.api.nvim_set_hl(0, "@include.go", { fg = OrmaazdColors.purples.light })
 vim.api.nvim_set_hl(0, "@field.go", { fg = OrmaazdColors.white })
-vim.api.nvim_set_hl(0, "@type.go", { fg = OrmaazdColors.white })
 vim.api.nvim_set_hl(0, "@type.builtin.go", { fg = OrmaazdColors.green, italic = true})
 
 function LualineHighlights()
@@ -38,3 +40,4 @@ end
 vim.api.nvim_set_hl(0, "DiffAdd", { fg = OrmaazdColors.green, bg = "none" })
 vim.api.nvim_set_hl(0, "DiffDelete", { fg = OrmaazdColors.reds.light, bg = "none" })
 vim.api.nvim_set_hl(0, "DiffChange", { fg = OrmaazdColors.purples.neutral, bg = "none" })
+
