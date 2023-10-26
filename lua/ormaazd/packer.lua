@@ -3,29 +3,29 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 	-- Packer can manage itself
-	use 'wbthomason/packer.nvim'
+	use('wbthomason/packer.nvim')
 
 	------ Color themes ------
 	-- Dracula
-	use 'Mofiqul/dracula.nvim'
+	use('Mofiqul/dracula.nvim')
 
 
 	------ Actual plugins ------
 	-- Mason(-lspconfig)
-	use {
+	use({
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
-	}
+	})
 
 	-- Telescope
-	use {
+	use({
 		'nvim-telescope/telescope.nvim', tag = '0.1.4',
 		requires = { {'nvim-lua/plenary.nvim'} }
-	}
+	})
 
 	-- Harpoon
-	use { 'ThePrimeagen/harpoon' }
+	use('ThePrimeagen/harpoon')
 
 	-- Treesitter (+ playgroud)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
 	use('uga-rosa/ccc.nvim')
 
 	-- LSP Zero
-	use {
+	use({
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
 		requires = {
@@ -54,13 +54,13 @@ return require('packer').startup(function(use)
 			{'hrsh7th/cmp-nvim-lsp'},
 			{'L3MON4D3/LuaSnip'},
 		}
-	}
+	})
 
 	-- LUA Line
-	use {
+	use({
 		'nvim-lualine/lualine.nvim',
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-	}
+	})
 
 	-- LSP Lines
 	use('https://git.sr.ht/~whynothugo/lsp_lines.nvim')
