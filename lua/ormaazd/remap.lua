@@ -18,6 +18,8 @@ vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
 
 vim.keymap.set("n", "<leader>pb", vim.cmd.GitsignsBlame)
 
+vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle)
+
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
 

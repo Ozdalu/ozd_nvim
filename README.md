@@ -21,11 +21,15 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 - Mason
 - Mason Lsp Config
 - Telescope
-- Treesitter
+- Harpoon
+- Treesitter (+ playground)
+- GitSigns
 - Nvim Tree
+- Floating Terminal
 - CCC (to highlight colors, such as #c8102e)
 - LSP Zero
 - LUA Line
+- LSP Lines
 
 <br>
 
@@ -39,6 +43,7 @@ Fusy Grep | `<Space>ps`| Normal | gre**p** **s**search
 Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
 Git Blame | `<Space>pb`| Normal | **p**roject **b**lame
+Display errors and warnings in place | `<Space>pe`| Normal | **p**roject **e**rrors
 Open/Close the floating terminal | `<Alt-ù>` | Normal<br>Terminal |  |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | Normal | **h**ighlight **c**olors
 Add to Harpoon | `<Space>ha` | Normal | **h**arpoon **a**dd
