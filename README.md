@@ -40,6 +40,10 @@ Function | Remap | Mode | Comment
 Leader key | `<Spacebar>` |   |   |
 Fusy find file | `<Space>ff`| Normal | **f**ind **f**ile
 Fusy Grep | `<Space>ps`| Normal | gre**p** **s**search
+PageUp | `<Ctrl-k>` | Normal | **k** is the default keybind to navigate up
+PageDown | `<Ctrl-j>` | Normal | **j** is the default keybind to navigate down
+Go to beginning of line | `<Ctrl-h>` | Normal<br>Visual | **h** is the default keybind to navigate left
+Go to end of line | `<Ctrl-l>` | Normal<br>Visual | **l** is the default keybind to navigate right
 Clear search highlight | `<Space>l` | Normal | \<Ctrl-**l**\> is the default keybind to clear search highlight, but it is now used to go to the end of the line
 Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
@@ -53,10 +57,6 @@ Show Harpooned 1 | `<Space>hy` | Normal | **h**arpoon **y**uio
 Show Harpooned 2 | `<Space>hu` | Normal | **h**arpoon y**u**io
 Show Harpooned 3 | `<Space>hi` | Normal | **h**arpoon yu**i**o
 Show Harpooned 4 | `<Space>ho` | Normal | **h**arpoon yui**o**
-PageUp | `<Ctrl-k>` | Normal | **k** is the default keybind to navigate up
-PageDown | `<Ctrl-j>` | Normal | **j** is the default keybind to navigate down
-Go to beginning of line | `<Ctrl-h>` | Normal<br>Visual | **h** is the default keybind to navigate left
-Go to end of line | `<Ctrl-l>` | Normal<br>Visual | **l** is the default keybind to navigate right
 Go to next ([{}]) | `&` | Normal<br>Visual | Feels better + symmetrical to `=` to indent
 Move the selected text one line up (and vertically center it) | `<Alt-k>` | Visual | **k** is the default keybind to navigate up
 Move the selected text one line down (and vertically center it) | `<Alt-j>` | Visual | **j** is the default keybind to navigate up
