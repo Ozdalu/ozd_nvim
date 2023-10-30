@@ -40,10 +40,11 @@ Function | Remap | Mode | Comment
 Leader key | `<Spacebar>` |   |   |
 Fusy find file | `<Space>ff`| Normal | **f**ind **f**ile
 Fusy Grep | `<Space>ps`| Normal | gre**p** **s**search
+Clear search highlight | `<Space>l` | Normal | \<Ctrl-**l**\> is the default keybind to clear search highlight, but it is now used to go to the end of the line
 Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
 Git Blame | `<Space>pb`| Normal | **p**roject **b**lame
-Display errors and warnings in place | `<Space>pe`| Normal | **p**roject **e**rrors
+Display errors and warnings in place | `<Space>pe` | Normal | **p**roject **e**rrors
 Open/Close the floating terminal | `<Alt-ù>` | Normal<br>Terminal |  |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | Normal | **h**ighlight **c**olors
 Add to Harpoon | `<Space>ha` | Normal | **h**arpoon **a**dd
