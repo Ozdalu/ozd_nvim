@@ -9,6 +9,7 @@ vim.keymap.set("n", "<C-j>", "<PageDown>zz")
 vim.keymap.set({"n", "v"}, "<C-l>", "$")
 vim.keymap.set({"n", "v"}, "<C-h>", "^")
 vim.keymap.set({"n", "v", "o"}, "&", "%")
+vim.keymap.set("n", "<leader>l", vim.cmd.nohlsearch)
 
 vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle)
 
