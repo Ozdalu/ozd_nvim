@@ -45,6 +45,7 @@ PageDown | `<Ctrl-j>` | Normal<br>Visual | **j** is the default keybind to navig
 Go to beginning of line | `<Ctrl-h>` | Normal<br>Visual | **h** is the default keybind to navigate left
 Go to end of line | `<Ctrl-l>` | Normal<br>Visual | **l** is the default keybind to navigate right
 Clear search highlight | `<Space>l` | Normal | \<Ctrl-**l**\> is the default keybind to clear search highlight, but it is now used to go to the end of the line
+Delete word under cursor | `<Ctrl-w>` | Normal | Ctrl-**w**ord
 Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
 Git Blame | `<Space>pb`| Normal | **p**roject **b**lame
