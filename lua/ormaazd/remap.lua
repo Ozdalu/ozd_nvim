@@ -8,7 +8,7 @@ vim.keymap.set({"n", "v"}, "<C-k>", "<PageUp>zz")
 vim.keymap.set({"n", "v"}, "<C-j>", "<PageDown>zz")
 vim.keymap.set({"n", "v"}, "<C-l>", "$")
 vim.keymap.set({"n", "v"}, "<C-h>", "^")
-vim.keymap.set({"n", "v", "o"}, "&", "%")
+vim.keymap.set({"n", "v", "o"}, "&", "%", {remap = true})
 vim.keymap.set("n", "<leader>l", vim.cmd.nohlsearch)
 
 vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle)
