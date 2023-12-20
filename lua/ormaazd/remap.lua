@@ -21,6 +21,7 @@ vim.keymap.set("n", "<leader>hi", vim.cmd.HarpoonNavigate3)
 vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
 
 vim.keymap.set("n", "<leader>pb", vim.cmd.GitsignsBlame)
+vim.keymap.set("n", "<leader>pB", vim.cmd.GitsignsLineBlame)
 
 vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle)
 

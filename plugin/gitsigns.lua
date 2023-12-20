@@ -8,3 +8,10 @@ vim.api.nvim_create_user_command('GitsignsBlame',
 	end,
 	{}
 )
+
+vim.api.nvim_create_user_command('GitsignsLineBlame',
+	function()
+		require('gitsigns.actions').toggle_current_line_blame()
+	end,
+	{}
+)
