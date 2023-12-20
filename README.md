@@ -51,6 +51,8 @@ Open file from window to NvimTree | `<Space>fo`| Normal | **fo**cus
 Toggle NvimTree | `<Ctrl-b>` | Normal | VisualSCode/VSCodium shortcut
 Git Blame | `<Space>pb`| Normal | **p**roject **b**lame
 Git Line Blame | `<Space>pB`| Normal | **p**roject (line) **B**lame
+Git Word diff | `<Space>pd`| Normal | **p**roject (word) **d**iff
+Git Diff file | `<Space>pD`| Normal | **p**roject **D**iff file
 Display errors and warnings in place | `<Space>pe` | Normal | **p**roject **e**rrors
 Open/Close the floating terminal | `<Alt-ù>` | Normal<br>Terminal |  |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | Normal | **h**ighlight **c**olors
