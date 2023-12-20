@@ -13,3 +13,10 @@ vim.api.nvim_create_user_command('TelescopeGrep',
 	end,
 	{}
 )
+
+vim.api.nvim_create_user_command('TelescopeReferences',
+	function()
+		telescope.lsp_references();
+	end,
+	{}
+)
