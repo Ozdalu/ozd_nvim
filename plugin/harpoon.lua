@@ -1,5 +1,12 @@
 local harpoon = require("harpoon")
 
+harpoon:setup({
+	settings = {
+		save_on_toggle = true,
+		sync_on_ui_close = true,
+	}
+})
+
 vim.api.nvim_create_user_command('HarpoonMark',
 	function()
 		harpoon:list():append()
