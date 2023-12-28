@@ -1,41 +1,43 @@
+local harpoon = require("harpoon")
+
 vim.api.nvim_create_user_command('HarpoonMark',
 	function()
-		require('harpoon.mark').add_file()
+		harpoon:list():append()
 	end,
 	{}
 )
 
 vim.api.nvim_create_user_command('HarpoonToggle',
 	function()
-		require("harpoon.ui").toggle_quick_menu()
+		harpoon.ui:toggle_quick_menu(harpoon:list())
 	end,
 	{}
 )
 
 vim.api.nvim_create_user_command('HarpoonNavigate1',
 	function()
-		require("harpoon.ui").nav_file(1)
+		harpoon:list():select(1)
 	end,
 	{}
 )
 
 vim.api.nvim_create_user_command('HarpoonNavigate2',
 	function()
-		require("harpoon.ui").nav_file(2)
+		harpoon:list():select(2)
 	end,
 	{}
 )
 
 vim.api.nvim_create_user_command('HarpoonNavigate3',
 	function()
-		require("harpoon.ui").nav_file(3)
+		harpoon:list():select(3)
 	end,
 	{}
 )
 
 vim.api.nvim_create_user_command('HarpoonNavigate4',
 	function()
-		require("harpoon.ui").nav_file(4)
+		harpoon:list():select(4)
 	end,
 	{}
 )
