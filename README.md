@@ -64,6 +64,7 @@ Show Harpooned 2 | `<Space>hu` | Normal | **h**arpoon y**u**io
 Show Harpooned 3 | `<Space>hi` | Normal | **h**arpoon yu**i**o
 Show Harpooned 4 | `<Space>ho` | Normal | **h**arpoon yui**o**
 Go to next ([{}]) | `&` | Normal<br>Visual | Feels better + symmetrical to `=` to indent
+Go to mark | `²` | Normal | Better suited for AZERTY keyboard
 Move the selected text one line up (and vertically center it) | `<Alt-k>` | Visual | **k** is the default keybind to navigate up
 Move the selected text one line down (and vertically center it) | `<Alt-j>` | Visual | **j** is the default keybind to navigate up
 Replace selected text without losing buffer | `<Space>p` | Visual | **p** is the default keybind to **p**aste
