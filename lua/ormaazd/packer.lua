@@ -32,7 +32,10 @@ return require('packer').startup(function(use)
 	})
 
 	-- Harpoon
-	use('ThePrimeagen/harpoon')
+	use({
+		'ThePrimeagen/harpoon',
+		branch = 'harpoon2',
+	})
 
 	-- Treesitter (+ playgroud)
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
