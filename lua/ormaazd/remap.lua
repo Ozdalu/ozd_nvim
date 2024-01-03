@@ -38,3 +38,6 @@ vim.keymap.set({"n", "v"}, "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("n", "<C-y>", "wyb")
+
+vim.keymap.set({"v", "o"}, "<leader>p\"", "c\"\"<Esc>P")
+vim.keymap.set({"v", "o"}, "<leader>p\'", "c\'\'<Esc>P")
