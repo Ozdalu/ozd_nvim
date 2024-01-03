@@ -69,5 +69,5 @@ Move the selected text one line up (and vertically center it) | `<Alt-k>` | Visu
 Move the selected text one line down (and vertically center it) | `<Alt-j>` | Visual | **j** is the default keybind to navigate up
 Replace selected text without losing buffer | `<Space>p` | Visual | **p** is the default keybind to **p**aste
 Copy (selection if visual mode) to system clipboard | `<Space>y` | Normal<br>Visual | **y** is the default keybind to **y**ank
-Put double quotes around selection | `<Space>p"` | Visual | **p**ut **"**
-Put single quotes around selection | `<Space>p'` | Visual | **p**ut **'**
+Put double quotes around selection | `<Space>a"` | Visual | **a**dd **"**
+Put single quotes around selection | `<Space>a'` | Visual | **a**dd **'**
