@@ -2,6 +2,7 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>ff", vim.cmd.TelescopeFindFiles)
 vim.keymap.set("n", "<leader>ps", vim.cmd.TelescopeGrep)
 vim.keymap.set("n", "<leader>fr", vim.cmd.TelescopeReferences)
+vim.keymap.set("n", "<leader>pr", vim.cmd.LspRename)
 vim.keymap.set("n", "<leader>fo", vim.cmd.NvimTreeFindFile)
 vim.keymap.set("n", "<leader>hc", vim.cmd.CccHighlighterToggle)
 vim.keymap.set("n", "<C-b>", vim.cmd.NvimTreeToggle)
