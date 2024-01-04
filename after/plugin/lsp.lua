@@ -38,3 +38,11 @@ cmp.setup({
 		['<Tab>'] = cmp.mapping.confirm({select = false}),
 	})
 })
+
+vim.api.nvim_create_user_command('LspRename',
+	function()
+		vim.lsp.buf.rename()
+	end,
+	{}
+)
+
