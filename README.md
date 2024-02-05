@@ -40,6 +40,7 @@ Function | Remap | Mode | Comment
 Leader key | `<Spacebar>` |   |   |
 Fusy find file | `<Space>ff`| Normal | **f**ind **f**ile
 Fusy Grep | `<Space>ps`| Normal | gre**p** **s**earch
+Grep word | `<Space>pu`| Normal | gre**p** **u**nder cursor
 Find references | `<Space>fr`| Normal | **f**ind **r**eferences
 Rename references | `<Space>pr`| Normal | **p**roject **r**ename
 PageUp | `<Ctrl-k>` | Normal<br>Visual | **k** is the default keybind to navigate up
