@@ -30,6 +30,8 @@ vim.keymap.set("n", "<leader>pd", vim.cmd.GitsignsWordDiff)
 vim.keymap.set("n", "<leader>pD", vim.cmd.GitsignsDiffThis)
 
 vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle)
+vim.keymap.set("n", "<leader>ge", vim.diagnostic.goto_next)
+vim.keymap.set("n", "<leader>gE", vim.diagnostic.goto_prev)
 
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")

@@ -57,6 +57,8 @@ Git Line Blame | `<Space>pB`| Normal | **p**roject (line) **B**lame
 Git Word diff | `<Space>pd`| Normal | **p**roject (word) **d**iff
 Git Diff file | `<Space>pD`| Normal | **p**roject **D**iff file
 Display errors and warnings in place | `<Space>pe` | Normal | **p**roject **e**rrors
+Go to next error | `<Space>ge` | Normal | **g**oto **e**rror
+Go to previous error | `<Space>gE` | Normal | **g**oto **E**rror
 Open/Close the floating terminal | `<Alt-ù>` | Normal<br>Terminal |  |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | Normal | **h**ighlight **c**olors
 Add to Harpoon | `<Space>ha` | Normal | **h**arpoon **a**dd
