@@ -29,6 +29,7 @@ function LualineHighlights()
 	vim.api.nvim_set_hl(0, "lualine_b_diff_modified_insert", { fg = OrmaazdColors.blues.dark, bg = OrmaazdColors.oranges.neutral})
 	vim.api.nvim_set_hl(0, "lualine_b_diff_added_insert", { fg = '#007821', bg = OrmaazdColors.oranges.neutral })
 
+	vim.api.nvim_set_hl(0, "lualine_b_diff_modified_normal", { fg = OrmaazdColors.purples.light, bg = OrmaazdColors.purples.neutral})
 	vim.api.nvim_set_hl(0, "lualine_b_diff_removed_normal", { fg = OrmaazdColors.blues.light, bg = OrmaazdColors.purples.neutral })
 
 	vim.api.nvim_set_hl(0, "lualine_b_diagnostic_warn_insert", { fg = OrmaazdColors.reds.dark, bg = OrmaazdColors.oranges.neutral })
