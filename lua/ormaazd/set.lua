@@ -8,5 +8,5 @@ vim.opt.title = true
 vim.opt.titlestring = "%{expand(\"%:~:.:h\")}/%t"
 vim.opt.signcolumn = "auto"
 vim.opt.termguicolors = true
-vim.opt.foldmethod = "syntax"
-vim.opt.foldlevelstart = 20
+vim.opt.foldmethod = "indent"
+vim.opt.foldlevelstart = 10
