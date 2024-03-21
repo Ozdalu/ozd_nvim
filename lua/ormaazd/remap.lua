@@ -13,7 +13,7 @@ vim.keymap.set({"n", "v", "o"}, "<C-l>", "$", {remap = true})
 vim.keymap.set({"n", "v", "o"}, "<C-h>", "^", {remap = true})
 vim.keymap.set({"n", "v", "o"}, "&", "%", {remap = true})
 vim.keymap.set("n", "²", "`", {remap = true})
-vim.keymap.set("n", "<leader>l", vim.cmd.nohlsearch)
+vim.keymap.set("n", "<leader>l", "<Cmd>nohlsearch<CR><C-L>")
 
 vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle)
 
