@@ -7,6 +7,7 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 ## Prerequisite
 
 - [neovim](https://github.com/neovim/neovim)
+- [packer](https://github.com/wbthomason/packer.nvim)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - A [nerdfont](https://www.nerdfonts.com/font-downloads), I personnaly use [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip).
 
@@ -15,7 +16,7 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 ## Installed plug-ins
 
 (list of plugins in lua/ormaazd/packer) :
-- Pckr
+- Packer
 - Dracula Theme (not used)
 - Mason
 - Mason Lsp Config
