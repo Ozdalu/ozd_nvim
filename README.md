@@ -20,7 +20,6 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 - Dracula Theme (not used)
 - Mason
 - Mason Lsp Config
-- Flutter tools
 - Telescope
 - Harpoon
 - Treesitter (+ playground)
