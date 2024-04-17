@@ -23,6 +23,7 @@ vim.keymap.set("n", "<leader>hy", vim.cmd.HarpoonNavigate1)
 vim.keymap.set("n", "<leader>hu", vim.cmd.HarpoonNavigate2)
 vim.keymap.set("n", "<leader>hi", vim.cmd.HarpoonNavigate3)
 vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
+vim.keymap.set("n", "<leader>hl", vim.cmd.HarpoonNavigate5)
 
 vim.keymap.set("n", "<leader>pb", vim.cmd.GitsignsBlame)
 vim.keymap.set("n", "<leader>pB", vim.cmd.GitsignsLineBlame)
