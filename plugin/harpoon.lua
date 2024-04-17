@@ -48,3 +48,10 @@ vim.api.nvim_create_user_command('HarpoonNavigate4',
 	end,
 	{}
 )
+
+vim.api.nvim_create_user_command('HarpoonNavigate5',
+	function()
+		harpoon:list():select(5)
+	end,
+	{}
+)

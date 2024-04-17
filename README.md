@@ -67,6 +67,7 @@ Show Harpooned 1 | `<Space>hy` | Normal | **h**arpoon **y**uio
 Show Harpooned 2 | `<Space>hu` | Normal | **h**arpoon y**u**io
 Show Harpooned 3 | `<Space>hi` | Normal | **h**arpoon yu**i**o
 Show Harpooned 4 | `<Space>ho` | Normal | **h**arpoon yui**o**
+Show Harpooned 5 | `<Space>hl` | Normal | **h**arpoon yuio**l** (follows hand's pinky)
 Go to next ([{}]) | `&` | Normal<br>Visual | Feels better + symmetrical to `=` to indent
 Go to mark | `²` | Normal | Better suited for AZERTY keyboard
 Move the selected text one line up (and vertically center it) | `<Alt-k>` | Visual | **k** is the default keybind to navigate up
