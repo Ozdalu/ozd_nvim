@@ -1,1 +1,1 @@
-require("ormaazd")
+require("ozdalu")

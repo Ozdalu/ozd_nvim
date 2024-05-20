@@ -1,5 +1,0 @@
-require("ormaazd.execute_first")
-require("ormaazd.remap")
-require("ormaazd.set")
-require("ormaazd.colors")
-require("ormaazd.highlight")

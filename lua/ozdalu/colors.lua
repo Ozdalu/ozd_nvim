@@ -1,4 +1,4 @@
-OrmaazdColors = {
+OzdaluColors = {
 	green		= '#27e73a',
 	black		= '#262626',
 	darkgrey	= '#4b4b4b',
