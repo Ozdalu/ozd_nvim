@@ -1,42 +1,42 @@
-local normalColor = OrmaazdColors.purples
-local insertColor = OrmaazdColors.oranges
-local visualColor = OrmaazdColors.blues
-local replaceColor = OrmaazdColors.reds
+local normalColor = OzdaluColors.purples
+local insertColor = OzdaluColors.oranges
+local visualColor = OzdaluColors.blues
+local replaceColor = OzdaluColors.reds
 
 local my_theme = {
 	normal = {
-		a = { fg = OrmaazdColors.black, bg = normalColor.light, gui = 'bold' },
-		b = { fg = OrmaazdColors.white, bg = normalColor.neutral, },
-		c = { fg = OrmaazdColors.white, bg = normalColor.dark },
+		a = { fg = OzdaluColors.black, bg = normalColor.light, gui = 'bold' },
+		b = { fg = OzdaluColors.white, bg = normalColor.neutral, },
+		c = { fg = OzdaluColors.white, bg = normalColor.dark },
 	},
 
 	insert = {
-		a = { fg = OrmaazdColors.black, bg = insertColor.light, gui = 'bold' } ,
-		b = { fg = OrmaazdColors.black, bg = insertColor.neutral, gui = 'bold' } ,
-		c = { fg = OrmaazdColors.white, bg = insertColor.dark },
+		a = { fg = OzdaluColors.black, bg = insertColor.light, gui = 'bold' } ,
+		b = { fg = OzdaluColors.black, bg = insertColor.neutral, gui = 'bold' } ,
+		c = { fg = OzdaluColors.white, bg = insertColor.dark },
 
 	},
 
 	visual = {
-		a = { fg = OrmaazdColors.black, bg = visualColor.light, gui = 'bold' },
-		b = { fg = OrmaazdColors.white, bg = visualColor.neutral, gui = 'bold' },
-		c = { fg = OrmaazdColors.white, bg = visualColor.dark, gui = 'bold' },
+		a = { fg = OzdaluColors.black, bg = visualColor.light, gui = 'bold' },
+		b = { fg = OzdaluColors.white, bg = visualColor.neutral, gui = 'bold' },
+		c = { fg = OzdaluColors.white, bg = visualColor.dark, gui = 'bold' },
 	},
 
 	replace = {
-		a = { fg = OrmaazdColors.white, bg = replaceColor.light, gui = 'bold' },
-		b = { fg = OrmaazdColors.white, bg = replaceColor.neutral, gui = 'bold' },
-		c = { fg = OrmaazdColors.white, bg = replaceColor.dark, gui = 'bold' },
+		a = { fg = OzdaluColors.white, bg = replaceColor.light, gui = 'bold' },
+		b = { fg = OzdaluColors.white, bg = replaceColor.neutral, gui = 'bold' },
+		c = { fg = OzdaluColors.white, bg = replaceColor.dark, gui = 'bold' },
 	},
 
 	command = {
-		a = { fg = OrmaazdColors.black, bg = OrmaazdColors.green, gui = 'bold' },
+		a = { fg = OzdaluColors.black, bg = OzdaluColors.green, gui = 'bold' },
 	},
 
 	inactive = {
-		a = { fg = OrmaazdColors.white, bg = OrmaazdColors.black },
-		b = { fg = OrmaazdColors.white, bg = OrmaazdColors.black },
-		c = { fg = OrmaazdColors.white, bg = OrmaazdColors.black },
+		a = { fg = OzdaluColors.white, bg = OzdaluColors.black },
+		b = { fg = OzdaluColors.white, bg = OzdaluColors.black },
+		c = { fg = OzdaluColors.white, bg = OzdaluColors.black },
 	},
 }
 
