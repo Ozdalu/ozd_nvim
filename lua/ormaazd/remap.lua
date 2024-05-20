@@ -46,3 +46,6 @@ vim.keymap.set("n", "<C-y>", "wyb")
 
 vim.keymap.set({"v", "o"}, "<leader>a\"", "c\"\"<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a\'", "c\'\'<Esc>P")
+
+-- Snippets
+vim.keymap.set("n", ",cl", ":-1read ~/.config/nvim/snippets/console.log\Ei", {remap = false})
