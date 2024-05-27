@@ -6,6 +6,7 @@ vim.api.nvim_set_hl(0, "Visual", { bg = OzdaluColors.purples.neutral, fg = Ozdal
 vim.api.nvim_set_hl(0, "SignColumn", { bg = "none" })
 vim.api.nvim_set_hl(0, "CursorLine", { bg = OzdaluColors.purples.dark })
 vim.api.nvim_set_hl(0, "LineNr", { bg = "none", fg = OzdaluColors.oranges.light })
+vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none", fg = OzdaluColors.blues.neutral })
 vim.api.nvim_set_hl(0, "Search", { bg = OzdaluColors.oranges.light, fg = OzdaluColors.black })
 vim.api.nvim_set_hl(0, "CurSearch", { link = "Search" })
 vim.api.nvim_set_hl(0, "Title", { fg = OzdaluColors.purples.light })
