@@ -10,6 +10,7 @@ vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none", fg = OzdaluColors.blues.neu
 vim.api.nvim_set_hl(0, "Search", { bg = OzdaluColors.oranges.light, fg = OzdaluColors.black })
 vim.api.nvim_set_hl(0, "CurSearch", { link = "Search" })
 vim.api.nvim_set_hl(0, "Title", { fg = OzdaluColors.purples.light })
+vim.api.nvim_set_hl(0, "MatchParen", { bg = OzdaluColors.blues.neutral, fg = OzdaluColors.white })
 vim.api.nvim_set_hl(0, "Added", { fg = OzdaluColors.green })
 vim.api.nvim_set_hl(0, "Changed", {  fg = OzdaluColors.purples.neutral, bg = "none"  })
 vim.api.nvim_set_hl(0, "Removed", {  fg = OzdaluColors.reds.light, bg = "none"  })
