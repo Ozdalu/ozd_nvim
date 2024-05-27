@@ -56,7 +56,7 @@ Git Blame | `<Space>pb`| Normal | **p**roject **b**lame
 Git Line Blame | `<Space>pB`| Normal | **p**roject (line) **B**lame
 Git Word diff | `<Space>pd`| Normal | **p**roject (word) **d**iff
 Git Diff file | `<Space>pD`| Normal | **p**roject **D**iff file
-Git Diff file | `<Space>ps`| Normal | **p**roject Tree**s**itter
+Git Diff file | `<Space>pS`| Normal | **p**roject Tree**S**itter
 Display errors and warnings in place | `<Space>pe` | Normal | **p**roject **e**rrors
 Go to next error | `<Space>ge` | Normal | **g**oto **e**rror
 Go to previous error | `<Space>gE` | Normal | **g**oto **E**rror
