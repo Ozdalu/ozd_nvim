@@ -23,7 +23,9 @@ vim.keymap.set("n", "<leader>hy", vim.cmd.HarpoonNavigate1)
 vim.keymap.set("n", "<leader>hu", vim.cmd.HarpoonNavigate2)
 vim.keymap.set("n", "<leader>hi", vim.cmd.HarpoonNavigate3)
 vim.keymap.set("n", "<leader>ho", vim.cmd.HarpoonNavigate4)
-vim.keymap.set("n", "<leader>hl", vim.cmd.HarpoonNavigate5)
+vim.keymap.set("n", "<leader>hj", vim.cmd.HarpoonNavigate5)
+vim.keymap.set("n", "<leader>hk", vim.cmd.HarpoonNavigate6)
+vim.keymap.set("n", "<leader>hl", vim.cmd.HarpoonNavigate7)
 
 vim.keymap.set("n", "<leader>pb", vim.cmd.GitsignsBlame)
 vim.keymap.set("n", "<leader>pB", vim.cmd.GitsignsLineBlame)
@@ -49,4 +51,4 @@ vim.keymap.set({"v", "o"}, "<leader>a\"", "c\"\"<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a\'", "c\'\'<Esc>P")
 
 -- Snippets
-vim.keymap.set("n", ",cl", ":-1read ~/.config/nvim/snippets/console.log\Ei", {remap = false})
+vim.keymap.set("n", "<leader>,cl", ":-1read ~/.config/nvim/snippets/console.log\Ei", {remap = false})
