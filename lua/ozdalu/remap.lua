@@ -51,4 +51,12 @@ vim.keymap.set({"v", "o"}, "<leader>a\"", "c\"\"<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a\'", "c\'\'<Esc>P")
 
 -- Snippets
-vim.keymap.set("n", "<leader>,cl", ":-1read ~/.config/nvim/snippets/console.log\Ei", {remap = false})
+--- Console.log
+---- No content
+vim.keymap.set("n", "<leader>,cll", ":-1read ~/.config/nvim/snippets/console.log.snippet\Ei", {remap = false})
+---- Parenthesis around selection
+vim.keymap.set({"v", "o"}, "<leader>,cl(", "mgomb`ga)`gbiconsole.log(%", {remap = false})
+vim.keymap.set({"v", "o"}, "<leader>,cl)", "mgomb`ga)`gbiconsole.log(%", {remap = false})
+---- ' or " around selection
+vim.keymap.set({"v", "o"}, "<leader>,cl\'", "mgomb`ga\')`gbiconsole.log(\'%", {remap = false})
+vim.keymap.set({"v", "o"}, "<leader>,cl\"", "mgomb`ga\")`gbiconsole.log(\"%", {remap = false})
