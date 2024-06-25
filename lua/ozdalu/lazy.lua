@@ -55,6 +55,9 @@ local plugins = {
  	-- CCC (Color Picker)
  	'uga-rosa/ccc.nvim',
 
+  -- Comments
+  'numToStr/Comment.nvim',
+
  	-- LSP Zero
  	{
  		'VonHeikemen/lsp-zero.nvim',
