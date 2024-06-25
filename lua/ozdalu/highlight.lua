@@ -35,7 +35,7 @@ vim.api.nvim_set_hl(0, "DiagnosticHint", { fg = OzdaluColors.grey})
 
 vim.api.nvim_set_hl(0, "@variable.builtin", { fg = OzdaluColors.purples.light, italic = true })
 vim.api.nvim_set_hl(0, "@type.builtin", { fg = OzdaluColors.green, bold = true, italic = true })
-vim.api.nvim_set_hl(0, "@property", { fg = OzdaluColors.white })
+vim.api.nvim_set_hl(0, "@property", { fg = OzdaluColors.purples.light })
 vim.api.nvim_set_hl(0, "@lsp.type.property", { link = "@property" })
 vim.api.nvim_set_hl(0, "@variable", { fg = OzdaluColors.white })
 vim.api.nvim_set_hl(0, "@lsp.type.variable", { link = "@variable" })
