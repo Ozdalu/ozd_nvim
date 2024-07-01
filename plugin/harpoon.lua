@@ -9,7 +9,7 @@ harpoon:setup({
 
 vim.api.nvim_create_user_command('HarpoonMark',
 	function()
-		harpoon:list():append()
+		harpoon:list():add()
 	end,
 	{}
 )
