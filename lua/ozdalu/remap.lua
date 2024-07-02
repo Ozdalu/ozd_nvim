@@ -56,6 +56,8 @@ vim.keymap.set("i", "{", "{}<Left>", {remap = false})
 --- Console.log
 ---- No content
 vim.keymap.set("n", "<leader>,cll", ":-1read ~/.config/nvim/snippets/console.log.snippet\Ei", {remap = false})
+---- 'Step 1'
+vim.keymap.set("n", "<leader>,clL", ":-1read ~/.config/nvim/snippets/console.log.snippet\Ei\'Step 1\'h", {remap = false})
 ---- Parenthesis around selection
 vim.keymap.set({"v", "o"}, "<leader>,cl(", "mgomb`ga)`gbiconsole.log(%", {remap = false})
 vim.keymap.set({"v", "o"}, "<leader>,cl)", "mgomb`ga)`gbiconsole.log(%", {remap = false})
