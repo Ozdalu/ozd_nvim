@@ -7,8 +7,8 @@ vim.keymap.set("n", "<leader>pr", vim.cmd.LspRename)
 vim.keymap.set("n", "<leader>fo", vim.cmd.NvimTreeFindFile)
 vim.keymap.set("n", "<leader>hc", vim.cmd.CccHighlighterToggle)
 vim.keymap.set("n", "<C-b>", vim.cmd.NvimTreeToggle)
-vim.keymap.set({"n", "v"}, "<C-k>", "<PageUp>zz")
-vim.keymap.set({"n", "v"}, "<C-j>", "<PageDown>zz")
+vim.keymap.set({"n", "v"}, "<C-k>", "<C-u>zz")
+vim.keymap.set({"n", "v"}, "<C-j>", "<C-d>zz")
 vim.keymap.set({"n", "v", "o"}, "<C-l>", "$", {remap = true})
 vim.keymap.set({"n", "v", "o"}, "<C-h>", "^", {remap = true})
 vim.keymap.set({"n", "v", "o"}, "&", "%", {remap = true})
@@ -49,6 +49,11 @@ vim.keymap.set("n", "<C-y>", "wyb")
 
 vim.keymap.set({"v", "o"}, "<leader>a\"", "c\"\"<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a\'", "c\'\'<Esc>P")
+
+-- () {} []
+vim.keymap.set("i", "(", "()<Left>", {remap = false})
+vim.keymap.set("i", "[", "[]<Left>", {remap = false})
+vim.keymap.set("i", "{", "{}<Left>", {remap = false})
 
 -- Snippets
 --- Console.log
