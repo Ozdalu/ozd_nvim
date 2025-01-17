@@ -29,7 +29,6 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 - Nvim Tree
 - Floating Terminal
 - CCC (to highlight colors, such as #b47eff)
-- Comment
 - LUA Line
 - LSP Lines
 
