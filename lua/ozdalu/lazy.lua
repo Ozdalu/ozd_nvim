@@ -12,11 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-	------ Color themes ------
-	-- Dracula
-  'Mofiqul/dracula.nvim',
-
-  ------ Actual plugins ------
  	-- LSP
   'neovim/nvim-lspconfig',
   'hrsh7th/cmp-nvim-lsp',

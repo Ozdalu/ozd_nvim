@@ -1,6 +1,5 @@
 require("ozdalu.execute_first")
 require("ozdalu.colors")
-require("ozdalu.highlight")
 require("ozdalu.lazy")
 require("ozdalu.remap")
 require("ozdalu.set")

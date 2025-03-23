@@ -19,7 +19,6 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 (list of plugins in lua/ozdalu/lazy) :
 - Lazy
-- Dracula Theme (not used)
 - Mason, Mason Lsp Config
 - Nvim-LspConfig, Cmp-Nvim-LSP, Nvim-Cmp
 - Telescope
