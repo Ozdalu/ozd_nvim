@@ -11,3 +11,4 @@ vim.opt.termguicolors = true
 vim.opt.foldmethod = "indent"
 vim.opt.foldlevelstart = 10
 vim.opt.colorcolumn = "100"
+vim.cmd 'colorscheme oz'
