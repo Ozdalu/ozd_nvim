@@ -79,3 +79,4 @@ Replace selected text without losing buffer | `<Space>p` | Visual | **p** is the
 Copy (selection if visual mode) to system clipboard | `<Space>y` | Normal<br>Visual | **y** is the default keybind to **y**ank
 Put double quotes around selection | `<Space>a"` | Visual | **a**dd **"**
 Put single quotes around selection | `<Space>a'` | Visual | **a**dd **'**
+Put back quotes around selection | `<Space>a\`` | Visual | **a**dd **`**
