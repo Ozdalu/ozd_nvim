@@ -29,7 +29,8 @@ OzdaluColors = {
 		darkest	= '#100119'
 	},
   specials = {
-    white_blue_grey = '#f0f2f7',
+    white_blue_grey = '#e9ebf3',
+    pink_grey = '#d8d8ea',
     salmon = '#ffa0a0',
     blue_grey = '#7d8cc8'
   }

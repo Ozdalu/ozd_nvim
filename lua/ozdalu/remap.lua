@@ -49,11 +49,6 @@ vim.keymap.set({"v", "o"}, "<leader>a\"", "c\"\"<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a\'", "c\'\'<Esc>P")
 vim.keymap.set({"v", "o"}, "<leader>a`", "c``<Esc>P")
 
--- () {} []
-vim.keymap.set("i", "(", "()<Left>", {remap = false})
-vim.keymap.set("i", "[", "[]<Left>", {remap = false})
-vim.keymap.set("i", "{", "{}<Left>", {remap = false})
-
 -- Snippets
 --- Console.log
 ---- No content
