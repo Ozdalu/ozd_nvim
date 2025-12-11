@@ -17,6 +17,7 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 (list of plugins in lua/ozdalu/lazy.lua) :
 - Lazy
 - Cmp-Nvim-LSP, Nvim-Cmp
+- Mason, Mason-lspconfig, Mason-tool-installer
 - Telescope
 - Harpoon
 - Treesitter (+ playground)

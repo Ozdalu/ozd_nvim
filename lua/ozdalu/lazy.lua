@@ -20,6 +20,10 @@ require("lazy").setup({
   -- LSP
   'hrsh7th/cmp-nvim-lsp',
   'hrsh7th/nvim-cmp',
+  'neovim/nvim-lspconfig',
+  'mason-org/mason.nvim',
+  'mason-org/mason-lspconfig.nvim',
+  'WhoIsSethDaniel/mason-tool-installer.nvim',
 
   -- Telescope
   {
