@@ -2,11 +2,11 @@ OzdaluColors = {
 	green		= '#27e73a',
 	black		= '#262626',
 	white		= '#f8f8f2',
-  greys = {
-    light		= '#cfcfcf',
-    neutral		= '#7a7a7a',
-    dark	= '#3b3b3b'
-  },
+	greys = {
+		light		= '#cfcfcf',
+		neutral		= '#7a7a7a',
+		dark	= '#3b3b3b'
+	},
 	reds = {
 		light	= '#ee0d0d',
 		neutral	= '#550818',
@@ -28,10 +28,10 @@ OzdaluColors = {
 		dark	= '#290040',
 		darkest	= '#100119'
 	},
-  specials = {
-    white_blue_grey = '#e9ebf3',
-    pink_grey = '#d8d8ea',
-    salmon = '#ffa0a0',
-    blue_grey = '#7d8cc8'
-  }
+	specials = {
+		white_blue_grey = '#e9ebf3',
+		pink_grey = '#d8d8ea',
+		salmon = '#ffa0a0',
+		blue_grey = '#7d8cc8'
+	}
 }

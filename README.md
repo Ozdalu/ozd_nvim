@@ -12,15 +12,11 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 
 <br>
 
-  'neovim/nvim-lspconfig',
-  'hrsh7th/cmp-nvim-lsp',
-  'hrsh7th/nvim-cmp',
 ## Installed plug-ins
 
-(list of plugins in lua/ozdalu/lazy) :
+(list of plugins in lua/ozdalu/lazy.lua) :
 - Lazy
-- Mason, Mason Lsp Config
-- Nvim-LspConfig, Cmp-Nvim-LSP, Nvim-Cmp
+- Cmp-Nvim-LSP, Nvim-Cmp
 - Telescope
 - Harpoon
 - Treesitter (+ playground)
