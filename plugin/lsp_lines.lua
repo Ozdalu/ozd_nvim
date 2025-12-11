@@ -6,5 +6,3 @@ vim.api.nvim_create_user_command('LspLinesToggle',
 	end,
 	{}
 )
-
-
