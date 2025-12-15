@@ -1,1 +1,1 @@
-require("ozdalu.theme_dark").load()
+require("ozdalu.themes.ozdark").load()
