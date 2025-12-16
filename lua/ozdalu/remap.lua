@@ -12,7 +12,7 @@ vim.keymap.set({"n", "v"}, "<C-j>", "<C-d>zz", { desc = "Page down and center"})
 vim.keymap.set({"n", "v", "o"}, "<C-l>", "$", {remap = true, desc = "Go to line beginning"})
 vim.keymap.set({"n", "v", "o"}, "<C-h>", "^", {remap = true, desc = "Go to line end"})
 vim.keymap.set({"n", "v", "o"}, "&", "%", {remap = true})
-vim.keymap.set("n", "²", "`", {remap = true})
+vim.keymap.set("n", "²", "`", {remap = true, desc = "Jump to the mark"})
 vim.keymap.set("n", "<leader>l", "<Cmd>nohlsearch<CR><C-L>", { desc = "Clear search highlight"})
 
 vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle, { desc = "Toggle floating terminal"})
@@ -37,6 +37,9 @@ vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle, { desc = "Toggle error
 vim.keymap.set("n", "<leader>ge", vim.diagnostic.goto_next, { desc = "Go to next error"})
 vim.keymap.set("n", "<leader>gE", vim.diagnostic.goto_prev, { desc = "Go to previous error"})
 
+
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv", { desc = "Move visual block 1 line above"})
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv", { desc = "Move visual block 1 line below"})
 
