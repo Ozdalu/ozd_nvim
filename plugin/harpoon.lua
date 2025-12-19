@@ -21,51 +21,9 @@ vim.api.nvim_create_user_command('HarpoonToggle',
 	{}
 )
 
-vim.api.nvim_create_user_command('HarpoonNavigate1',
-	function()
-		harpoon:list():select(1)
+vim.api.nvim_create_user_command('HarpoonNavigate',
+	function(opts)
+		harpoon:list():select(tonumber(opts.fargs[1]))
 	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate2',
-	function()
-		harpoon:list():select(2)
-	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate3',
-	function()
-		harpoon:list():select(3)
-	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate4',
-	function()
-		harpoon:list():select(4)
-	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate5',
-	function()
-		harpoon:list():select(5)
-	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate6',
-	function()
-		harpoon:list():select(6)
-	end,
-	{}
-)
-
-vim.api.nvim_create_user_command('HarpoonNavigate7',
-	function()
-		harpoon:list():select(7)
-	end,
-	{}
+	{ nargs = 1 }
 )
