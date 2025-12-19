@@ -39,6 +39,8 @@ Fusy find file | `<Space>ff`| Normal | **f**ind **f**ile
 Fusy Grep | `<Space>ps`| Normal | gre**p** **s**earch
 Grep word | `<Space>pu`| Normal | gre**p** **u**nder cursor
 Find references | `<Space>fr`| Normal | **f**ind **r**eferences
+Find definition | `<Space>fd` | Normal | **f**ind **d**efinition
+Find definition | `<Space>fD` | Normal | **f**ind **D**eclaration (less implemented than definition)
 Rename references | `<Space>pr`| Normal | **p**roject **r**ename
 PageUp | `<Ctrl-k>` | Normal<br>Visual | **k** is the default keybind to navigate up
 PageDown | `<Ctrl-j>` | Normal<br>Visual | **j** is the default keybind to navigate down
