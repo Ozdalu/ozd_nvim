@@ -34,8 +34,8 @@ vim.keymap.set("n", "<leader>pD", vim.cmd.GitsignsDiffThis, { desc = "See diffs 
 vim.keymap.set("n", "<leader>pS", vim.cmd.TSCaptureUnderCursor, { desc = "See highlight group under cursor"})
 
 vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle, { desc = "Toggle errors in virtual lines"})
-vim.keymap.set("n", "<leader>ge", vim.diagnostic.goto_next, { desc = "Go to next error"})
-vim.keymap.set("n", "<leader>gE", vim.diagnostic.goto_prev, { desc = "Go to previous error"})
+vim.keymap.set("n", "<leader>ge", function() vim.diagnostic.jump({count=1, float=true}) end, { desc = "Go to next error"})
+vim.keymap.set("n", "<leader>gE", function() vim.diagnostic.jump({count=-1, float=true}) end, { desc = "Go to previous error"})
 
 
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
