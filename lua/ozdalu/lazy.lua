@@ -43,7 +43,6 @@ require("lazy").setup({
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate'
   },
-  'nvim-treesitter/playground',
 
   --GitSigns
   'lewis6991/gitsigns.nvim',
@@ -69,5 +68,5 @@ require("lazy").setup({
 },
 
   -- automatically check for plugin updates
-  checker = { enabled = true },
+  checker = { enabled = false },
 })
