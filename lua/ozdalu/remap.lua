@@ -33,7 +33,7 @@ vim.keymap.set("n", "<leader>pb", vim.cmd.GitsignsBlame, { desc = "Git blame in 
 vim.keymap.set("n", "<leader>pB", vim.cmd.GitsignsLineBlame, { desc = "Git blame inline"})
 vim.keymap.set("n", "<leader>pd", vim.cmd.GitsignsWordDiff, { desc = "See diffs in file"})
 vim.keymap.set("n", "<leader>pD", vim.cmd.GitsignsDiffThis, { desc = "See diffs in new pane"})
-vim.keymap.set("n", "<leader>pS", vim.cmd.TSCaptureUnderCursor, { desc = "See highlight group under cursor"})
+vim.keymap.set("n", "<leader>pS", vim.cmd.Inspect, { desc = "See highlight group under cursor"})
 
 vim.keymap.set("n", "<leader>pe", vim.cmd.LspLinesToggle, { desc = "Toggle errors in virtual lines"})
 vim.keymap.set("n", "<leader>ge", function() vim.diagnostic.jump({count=1, float=true}) end, { desc = "Go to next error"})

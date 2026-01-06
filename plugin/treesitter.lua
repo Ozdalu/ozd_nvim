@@ -23,3 +23,5 @@ require'nvim-treesitter.configs'.setup {
 		additional_vim_regex_highlighting = {'php'},
 	},
 }
+
+vim.api.nvim_create_user_command('TSPlayground', ':InspectTree', {})

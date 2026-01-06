@@ -20,7 +20,7 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 - [Mason](https://github.com/mason-org/mason.nvim), [Mason-lspconfig](https://github.com/mason-org/mason-lspconfig.nvim), [Mason-tool-installer](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [Harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
-- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (+ [playground](https://github.com/nvim-treesitter/playground))
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [GitSigns](https://github.com/lewis6991/gitsigns.nvim)
 - [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) (+ [web dev icons](https://github.com/nvim-tree/nvim-web-devicons))
 - [Floating Terminal](https://github.com/numToStr/FTerm.nvim)
