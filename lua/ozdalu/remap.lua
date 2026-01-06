@@ -58,11 +58,23 @@ vim.keymap.set({"v", "o"}, "<leader>a}", "c{}<Esc>P", { desc = "Add {} around se
 
 
 -- Snippets
---- Console.log
----- No content
-vim.keymap.set("n", "<leader>,cll", ":-1read ~/.config/nvim/snippets/console.log.snippet\Ei", {remap = false})
----- 'Step 1'
-vim.keymap.set("n", "<leader>,clL", ":-1read ~/.config/nvim/snippets/console.log.snippet\Ei\'Step 1\'h", {remap = false})
+--- TypeScript
+---- Console.log
+----- No content
+vim.keymap.set("n", ",cll", ":-1read ~/.config/nvim/snippets/ts/console.log.snippet\Ei", {remap = false})
+----- 'Step 1'
+vim.keymap.set("n", ",clL", ":-1read ~/.config/nvim/snippets/ts/console.log.snippet\Ei\'Step 1\'h", {remap = false})
+
+--- GO 
+---- log.Println
+----- No content
+vim.keymap.set("n", ",fpl", ":read ~/.config/nvim/snippets/go/log.println.snippet\==Ei", {remap = false})
+----- 'Step 1'
+vim.keymap.set("n", ",fpL", ":read ~/.config/nvim/snippets/go/log.println.snippet\==Ei\"Step 1\"h", {remap = false})
+---- if err != nil return nil
+vim.keymap.set("n", ",ien", ":read ~/.config/nvim/snippets/go/if_err_nil.snippet\=2j2j", {remap = false})
+---- if err != nil {empty}
+vim.keymap.set("n", ",ieN", ":read ~/.config/nvim/snippets/go/if_err_nil.snippet\=2jjS", {remap = false})
 ---- Parenthesis around selection
 vim.keymap.set({"v", "o"}, "<leader>,cl(", "mgomb`ga)`gbiconsole.log(%", {remap = false})
 vim.keymap.set({"v", "o"}, "<leader>,cl)", "mgomb`ga)`gbiconsole.log(%", {remap = false})
