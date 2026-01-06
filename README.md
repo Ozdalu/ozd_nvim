@@ -15,18 +15,18 @@ Inspired(/bootstraped) by @ThePrimeAgent video [0 to LSP : Neovim RC From Scratc
 ## Installed plug-ins
 
 (list of plugins in lua/ozdalu/lazy.lua) :
-- Lazy
-- Cmp-Nvim-LSP, Nvim-Cmp
-- Mason, Mason-lspconfig, Mason-tool-installer
-- Telescope
-- Harpoon
-- Treesitter (+ playground)
-- GitSigns
-- Nvim Tree
-- Floating Terminal
-- CCC (to highlight colors, such as #b47eff)
-- LUA Line
-- LSP Lines
+- [Lazy](https://github.com/folke/lazy.nvim)
+- [Cmp-Nvim-LSP](https://github.com/hrsh7th/cmp-nvim-lsp), [Nvim-Cmp](https://github.com/hrsh7th/nvim-cmp)
+- [Mason](https://github.com/mason-org/mason.nvim), [Mason-lspconfig](https://github.com/mason-org/mason-lspconfig.nvim), [Mason-tool-installer](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [Harpoon](https://github.com/ThePrimeagen/harpoon/tree/harpoon2)
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (+ [playground](https://github.com/nvim-treesitter/playground))
+- [GitSigns](https://github.com/lewis6991/gitsigns.nvim)
+- [Nvim Tree](https://github.com/nvim-tree/nvim-tree.lua) (+ [web dev icons](https://github.com/nvim-tree/nvim-web-devicons))
+- [Floating Terminal](https://github.com/numToStr/FTerm.nvim)
+- [CCC](https://github.com/uga-rosa/ccc.nvim) (to highlight colors, such as #b47eff)
+- [LUA Line](https://github.com/nvim-lualine/lualine.nvim)
+- [LSP Lines](https://git.sr.ht/~whynothugo/lsp_lines.nvim)
 
 <br>
 
