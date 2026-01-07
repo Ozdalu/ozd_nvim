@@ -10,3 +10,10 @@ require('nvim-tree').setup({
 		dotfiles = true,
 	},
 })
+
+vim.api.nvim_create_user_command('NvimTreeCD',
+	function()
+		require("nvim-tree.api").tree.change_root_to_node()
+	end,
+	{}
+)

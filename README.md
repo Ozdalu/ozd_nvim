@@ -60,6 +60,7 @@ Display errors and warnings in place | `<Space>pe` | Normal | **p**roject **e**r
 Go to next error | `<Space>ge` | Normal | **g**oto **e**rror
 Go to previous error | `<Space>gE` | Normal | **g**oto **E**rror
 Open/Close the floating terminal | `<Alt-ù>` | Normal<br>Terminal |  |
+CD in NvimTree | `<Ctrl-)>` | Normal | Better suited for AZERTY keyboard (original was `<Ctrl-]>`) |
 Show #C0L0R with its background as color (toggle) | `<Space>hc` | Normal | **h**ighlight **c**olors
 Add to Harpoon | `<Space>ha` | Normal | **h**arpoon **a**dd
 List Harpooned files | `<Space>hh` | Normal | **h**arpoon **h**arpoon
