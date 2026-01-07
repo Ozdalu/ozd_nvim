@@ -19,6 +19,8 @@ vim.keymap.set("n", "<leader>l", "<Cmd>nohlsearch<CR><C-L>", { desc = "Clear sea
 
 vim.keymap.set({"n", "t"}, "<A-ù>", vim.cmd.FTermToggle, { desc = "Toggle floating terminal"})
 
+vim.keymap.set("n", "<C-)>", vim.cmd.NvimTreeCD, { desc = "Toggle floating terminal"})
+
 vim.keymap.set("n", "<leader>ha", vim.cmd.HarpoonMark, { desc = "Add to Harpoon"})
 vim.keymap.set("n", "<leader>hh", vim.cmd.HarpoonToggle, { desc = "Toggle Harpoon"})
 vim.keymap.set("n", "<leader>hy", function() vim.cmd.HarpoonNavigate(1) end, { desc = "Go to Harpoon file 1"})
