@@ -31,12 +31,20 @@ require("lazy").setup({
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
 
-  --Harpoon
+  -- Harpoon
   {
     'ThePrimeagen/harpoon',
     branch = 'harpoon2',
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
+
+  -- Treesitter
+  -- {
+  --   'nvim-treesitter/nvim-treesitter',
+  --   branch = 'main',
+  --   lazy = false,
+  --   build = ':TSUpdate'
+  -- },
 
   --GitSigns
   'lewis6991/gitsigns.nvim',
