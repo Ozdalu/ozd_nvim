@@ -38,12 +38,6 @@ require("lazy").setup({
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
 
-  -- Treesitter (+ playgroud)
-  {
-    'nvim-treesitter/nvim-treesitter',
-    build = ':TSUpdate'
-  },
-
   --GitSigns
   'lewis6991/gitsigns.nvim',
 
