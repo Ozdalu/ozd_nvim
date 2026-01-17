@@ -12,7 +12,7 @@ local my_theme = {
 
 	insert = {
 		a = { fg = OzdaluColors.black, bg = insertColor.light, gui = 'bold' } ,
-		b = { fg = OzdaluColors.black, bg = insertColor.neutral, gui = 'bold' } ,
+		b = { fg = OzdaluColors.black, bg = insertColor.neutral, gui = 'bold' },
 		c = { fg = OzdaluColors.white, bg = insertColor.dark },
 
 	},
@@ -61,7 +61,17 @@ require('lualine').setup {
 	},
 	sections = {
 		lualine_a = {'mode'},
-		lualine_b = {'branch', 'diff', 'diagnostics'},
+		lualine_b = {
+			'branch',
+			{
+				'diff',
+				colored = true,
+				diff_color = {
+					modified = { fg = OzdaluColors.purples.light },
+				}
+			},
+			'diagnostics'
+		},
 		lualine_c = {
 			{
 				'filename',
