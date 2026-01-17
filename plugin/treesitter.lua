@@ -1,20 +1,21 @@
-require('nvim-treesitter').install(
-  {
-    'javascript',
-    'typescript',
-    'html',
-    'php',
-    'c',
-    'lua',
-    'vim',
-    'vimdoc',
-    'query',
-    'go'
-  }
-)
+local languages = {
+  'javascript',
+  'typescript',
+  'html',
+  'php',
+  'c',
+  'css',
+  'lua',
+  'vim',
+  'vimdoc',
+  'query',
+  'go'
+}
+
+require('nvim-treesitter').install(languages)
 
 vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'go' },
+  pattern = languages,
   callback = function() vim.treesitter.start() end,
 })
 
