@@ -11,7 +11,7 @@ function M.load()
   vim.api.nvim_set_hl(0, "ColorColumn", { bg = OzdaluColors.white })
   vim.api.nvim_set_hl(0, "CursorLine", { bg = OzdaluColors.purples.light })
   vim.api.nvim_set_hl(0, "LineNr", { bg = "none", fg = OzdaluColors.oranges.neutral })
-  vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none", fg = OzdaluColors.blues.neutral })
+  vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none", fg = OzdaluColors.blues.neutral }) --
   vim.api.nvim_set_hl(0, "Search", { bg = OzdaluColors.oranges.light, fg = OzdaluColors.greys.dark })
   vim.api.nvim_set_hl(0, "CurSearch", { link = "Search" })
   vim.api.nvim_set_hl(0, "Folded", { bg = OzdaluColors.greys.light , fg = OzdaluColors.blues.neutral })
@@ -22,7 +22,7 @@ function M.load()
   vim.api.nvim_set_hl(0, "Changed", {  fg = OzdaluColors.purples.neutral, bg = "none" })
   vim.api.nvim_set_hl(0, "Removed", {  fg = OzdaluColors.reds.light, bg = "none" })
   vim.api.nvim_set_hl(0, "WinSeparator", { fg = OzdaluColors.purples.neutral, bg = "none" })
-  vim.api.nvim_set_hl(0, "StatusLineNC", { bg = OzdaluColors.red, fg = OzdaluColors.black })
+  vim.api.nvim_set_hl(0, "StatusLineNC", { bg = OzdaluColors.red, fg = OzdaluColors.black }) --
 
   vim.api.nvim_set_hl(0, "Statement", { fg = OzdaluColors.oranges.neutral, bold = true })
   vim.api.nvim_set_hl(0, "Constant", { fg = OzdaluColors.oranges.neutral })
@@ -43,17 +43,17 @@ function M.load()
   vim.api.nvim_set_hl(0, "DiagnosticWarn", { fg = OzdaluColors.oranges.dark })
   vim.api.nvim_set_hl(0, "DiagnosticHint", { fg = OzdaluColors.greys.neutral })
 
-  vim.api.nvim_set_hl(0, "@function.builtin", { fg = OzdaluColors.purples.light, italic = true })
+  vim.api.nvim_set_hl(0, "@function.builtin", { fg = OzdaluColors.purples.light, italic = true }) ----
   vim.api.nvim_set_hl(0, "@variable.builtin", { fg = OzdaluColors.purples.normal, italic = true })
   vim.api.nvim_set_hl(0, "@type.builtin", { fg = OzdaluColors.purples.light, italic = true })
   vim.api.nvim_set_hl(0, "@property", { fg = OzdaluColors.purples.light })
-  vim.api.nvim_set_hl(0, "@variable", { fg = OzdaluColors.greys.dark })
-  vim.api.nvim_set_hl(0, "@parameter", { link = "@variable" })
-  vim.api.nvim_set_hl(0, "@lsp.type.parameter", { link = "@parameter" })
+  vim.api.nvim_set_hl(0, "@variable", { fg = OzdaluColors.greys.neutral })
+  vim.api.nvim_set_hl(0, "@parameter", { link = "@variable" }) ----
+  vim.api.nvim_set_hl(0, "@lsp.type.parameter", { link = "@parameter" }) ----
 
   -- Go TreeSitter highlights
-  vim.api.nvim_set_hl(0, "@include.go", { fg = OzdaluColors.purples.neutral })
-  vim.api.nvim_set_hl(0, "@field.go", { fg = OzdaluColors.purples.neutral })
+  vim.api.nvim_set_hl(0, "@include.go", { fg = OzdaluColors.purples.neutral }) ----
+  vim.api.nvim_set_hl(0, "@field.go", { fg = OzdaluColors.purples.neutral }) ----
 
   -- Lualine highlights
 	vim.api.nvim_set_hl(0, "lualine_b_diff_modified_insert", { fg = OzdaluColors.blues.dark, bg = OzdaluColors.oranges.neutral})
